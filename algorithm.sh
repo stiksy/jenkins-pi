@@ -3,4 +3,4 @@
 # echo "3.14159" | tee -a report.txt
 
 # UNCOMMENT THE FOLLOWING LINE TO GET A MORE PRECISE CALCULATION OF PI. ALSO REMOVE THE PREVIOUS ECHO STATEMENTS.
-echo "scale=100000; 4*a(1)" | bc -l | tee report.txt
+echo "scale=10000; 4*a(1)" | bc -l | tee report.txt
